@@ -67,5 +67,5 @@ Alunos de EJA e Ensino Médio, com foco em clareza e didática.
 ---
 
 > **Acesse o site:**  
-> [Site](https://github.com/lhaislla/desafio_especialistas_javascript](https://lhaislla.github.io/desafio_especialistas_javascript/)
+> [Site]( https://lhaislla.github.io/desafio_especialistas_javascript/
 )
