@@ -4,56 +4,6 @@ const TIPOS = {
   OO: "oo"
 };
 
-const exemplos = {
-  [TIPOS.IMPERATIVO]: `// Paradigma Imperativo
-function verificaIdade(idade) {
-  if (idade >= 18) {
-    return "Maior de idade";
-  } else {
-    return "Menor de idade";
-  }
-}
-
-for (let i = 0; i < 5; i++) {
-  console.log(i);
-}
-
-let contador = 0;
-contador += 1;`,
-
-  [TIPOS.FUNCIONAL]: `// Paradigma Funcional
-const numeros = [1, 2, 3, 4, 5];
-const quadrados = numeros.map(x => x * x);
-
-function soma(a, b) {
-  return a + b;
-}
-
-const dobro = numeros.map(x => x * 2);`,
-
-  [TIPOS.OO]: `// Paradigma Orientado a Objetos
-class Pessoa {
-  constructor(nome, idade) {
-    this.nome = nome;
-    this.idade = idade;
-  }
-  
-  apresenta() {
-    return \`Olá, meu nome é \${this.nome} e tenho \${this.idade} anos.\`;
-  }
-}
-
-class Aluno extends Pessoa {
-  constructor(nome, idade, curso) {
-    super(nome, idade);
-    this.curso = curso;
-  }
-  
-  apresentaAluno() {
-    return \`\${this.apresenta()} Estou matriculado no curso de \${this.curso}.\`;
-  }
-}`};
-
 const paradigmas = {
   imperativo: 'paradigmas/imperativo/imperativo.js',
   funcional: 'paradigmas/funcional/funcional.js',
